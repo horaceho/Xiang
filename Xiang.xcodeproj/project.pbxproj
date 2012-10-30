@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5CDD45163E68B8002AAEF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5CDD44163E68B8002AAEF6 /* UIKit.framework */; };
+		AA5CDD47163E68B8002AAEF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5CDD46163E68B8002AAEF6 /* Foundation.framework */; };
+		AA5CDD49163E68B8002AAEF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5CDD48163E68B8002AAEF6 /* CoreGraphics.framework */; };
+		AA5CDD4F163E68B8002AAEF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5CDD4D163E68B8002AAEF6 /* InfoPlist.strings */; };
+		AA5CDD51163E68B8002AAEF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD50163E68B8002AAEF6 /* main.m */; };
+		AA5CDD55163E68B8002AAEF6 /* XiangAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD54163E68B8002AAEF6 /* XiangAppDelegate.m */; };
+		AA5CDD57163E68B8002AAEF6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5CDD56163E68B8002AAEF6 /* Default.png */; };
+		AA5CDD59163E68B8002AAEF6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5CDD58163E68B8002AAEF6 /* Default@2x.png */; };
+		AA5CDD5B163E68B8002AAEF6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5CDD5A163E68B8002AAEF6 /* Default-568h@2x.png */; };
+		AA5CDD5E163E68B8002AAEF6 /* XiangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD5D163E68B8002AAEF6 /* XiangViewController.m */; };
+		AA5CDD61163E68B8002AAEF6 /* XiangViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5CDD5F163E68B8002AAEF6 /* XiangViewController.xib */; };
+		AA5CDDA8163E78AD002AAEF6 /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD95163E78AD002AAEF6 /* book.cpp */; };
+		AA5CDDAA163E78AD002AAEF6 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD97163E78AD002AAEF6 /* evaluate.cpp */; };
+		AA5CDDAB163E78AD002AAEF6 /* genmoves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD98163E78AD002AAEF6 /* genmoves.cpp */; };
+		AA5CDDAC163E78AD002AAEF6 /* hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD99163E78AD002AAEF6 /* hash.cpp */; };
+		AA5CDDAD163E78AD002AAEF6 /* movesort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD9A163E78AD002AAEF6 /* movesort.cpp */; };
+		AA5CDDAE163E78AD002AAEF6 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD9B163E78AD002AAEF6 /* position.cpp */; };
+		AA5CDDAF163E78AD002AAEF6 /* preeval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD9C163E78AD002AAEF6 /* preeval.cpp */; };
+		AA5CDDB0163E78AD002AAEF6 /* pregen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD9D163E78AD002AAEF6 /* pregen.cpp */; };
+		AA5CDDB1163E78AD002AAEF6 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD9E163E78AD002AAEF6 /* search.cpp */; };
+		AA5CDDB2163E78AD002AAEF6 /* ucci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDD9F163E78AD002AAEF6 /* ucci.cpp */; };
+		AA5CDDC7163E79CD002AAEF6 /* pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDDBC163E79CD002AAEF6 /* pipe.cpp */; };
+		AA5CDDCB163E7B1B002AAEF6 /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5CDDC9163E7B1B002AAEF6 /* engine.cpp */; };
+		AAEB0951163E7EA500AA4D6D /* OPENBOOK.DAT in Resources */ = {isa = PBXBuildFile; fileRef = AAEB0950163E7EA500AA4D6D /* OPENBOOK.DAT */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA5CDD40163E68B8002AAEF6 /* Xiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5CDD44163E68B8002AAEF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA5CDD46163E68B8002AAEF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA5CDD48163E68B8002AAEF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA5CDD4C163E68B8002AAEF6 /* Xiang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Xiang-Info.plist"; sourceTree = "<group>"; };
+		AA5CDD4E163E68B8002AAEF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA5CDD50163E68B8002AAEF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5CDD52163E68B8002AAEF6 /* Xiang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xiang-Prefix.pch"; sourceTree = "<group>"; };
+		AA5CDD53163E68B8002AAEF6 /* XiangAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiangAppDelegate.h; sourceTree = "<group>"; };
+		AA5CDD54163E68B8002AAEF6 /* XiangAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiangAppDelegate.m; sourceTree = "<group>"; };
+		AA5CDD56163E68B8002AAEF6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA5CDD58163E68B8002AAEF6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AA5CDD5A163E68B8002AAEF6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA5CDD5C163E68B8002AAEF6 /* XiangViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiangViewController.h; sourceTree = "<group>"; };
+		AA5CDD5D163E68B8002AAEF6 /* XiangViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiangViewController.m; sourceTree = "<group>"; };
+		AA5CDD60163E68B8002AAEF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XiangViewController.xib; sourceTree = "<group>"; };
+		AA5CDD95163E78AD002AAEF6 /* book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = book.cpp; path = Engines/ELEEYE/eleeye/book.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD97163E78AD002AAEF6 /* evaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = evaluate.cpp; path = Engines/ELEEYE/eleeye/evaluate.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD98163E78AD002AAEF6 /* genmoves.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = genmoves.cpp; path = Engines/ELEEYE/eleeye/genmoves.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD99163E78AD002AAEF6 /* hash.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hash.cpp; path = Engines/ELEEYE/eleeye/hash.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD9A163E78AD002AAEF6 /* movesort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = movesort.cpp; path = Engines/ELEEYE/eleeye/movesort.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD9B163E78AD002AAEF6 /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = position.cpp; path = Engines/ELEEYE/eleeye/position.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD9C163E78AD002AAEF6 /* preeval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = preeval.cpp; path = Engines/ELEEYE/eleeye/preeval.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD9D163E78AD002AAEF6 /* pregen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pregen.cpp; path = Engines/ELEEYE/eleeye/pregen.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD9E163E78AD002AAEF6 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search.cpp; path = Engines/ELEEYE/eleeye/search.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDD9F163E78AD002AAEF6 /* ucci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ucci.cpp; path = Engines/ELEEYE/eleeye/ucci.cpp; sourceTree = SOURCE_ROOT; };
+		AA5CDDA0163E78AD002AAEF6 /* book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = book.h; path = Engines/ELEEYE/eleeye/book.h; sourceTree = SOURCE_ROOT; };
+		AA5CDDA1163E78AD002AAEF6 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hash.h; path = Engines/ELEEYE/eleeye/hash.h; sourceTree = SOURCE_ROOT; };
+		AA5CDDA2163E78AD002AAEF6 /* movesort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movesort.h; path = Engines/ELEEYE/eleeye/movesort.h; sourceTree = SOURCE_ROOT; };
+		AA5CDDA3163E78AD002AAEF6 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = position.h; path = Engines/ELEEYE/eleeye/position.h; sourceTree = SOURCE_ROOT; };
+		AA5CDDA4163E78AD002AAEF6 /* preeval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = preeval.h; path = Engines/ELEEYE/eleeye/preeval.h; sourceTree = SOURCE_ROOT; };
+		AA5CDDA5163E78AD002AAEF6 /* pregen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pregen.h; path = Engines/ELEEYE/eleeye/pregen.h; sourceTree = SOURCE_ROOT; };
+		AA5CDDA6163E78AD002AAEF6 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = search.h; path = Engines/ELEEYE/eleeye/search.h; sourceTree = SOURCE_ROOT; };
+		AA5CDDA7163E78AD002AAEF6 /* ucci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ucci.h; path = Engines/ELEEYE/eleeye/ucci.h; sourceTree = SOURCE_ROOT; };
+		AA5CDDB7163E79CD002AAEF6 /* base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
+		AA5CDDB8163E79CD002AAEF6 /* base2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base2.h; sourceTree = "<group>"; };
+		AA5CDDBA163E79CD002AAEF6 /* parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
+		AA5CDDBC163E79CD002AAEF6 /* pipe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pipe.cpp; sourceTree = "<group>"; };
+		AA5CDDBD163E79CD002AAEF6 /* pipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pipe.h; sourceTree = "<group>"; };
+		AA5CDDBE163E79CD002AAEF6 /* rc4prng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4prng.h; sourceTree = "<group>"; };
+		AA5CDDC1163E79CD002AAEF6 /* x86asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x86asm.h; sourceTree = "<group>"; };
+		AA5CDDC9163E7B1B002AAEF6 /* engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = engine.cpp; path = ../Engines/engine.cpp; sourceTree = "<group>"; };
+		AA5CDDCA163E7B1B002AAEF6 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = engine.h; path = ../Engines/engine.h; sourceTree = "<group>"; };
+		AAEB0950163E7EA500AA4D6D /* OPENBOOK.DAT */ = {isa = PBXFileReference; lastKnownFileType = file; name = OPENBOOK.DAT; path = ../../XiaQi/Libraries/ELEEYE/BOOK/OPENBOOK.DAT; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5CDD3D163E68B8002AAEF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5CDD45163E68B8002AAEF6 /* UIKit.framework in Frameworks */,
+				AA5CDD47163E68B8002AAEF6 /* Foundation.framework in Frameworks */,
+				AA5CDD49163E68B8002AAEF6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5CDD35163E68B8002AAEF6 = {
+			isa = PBXGroup;
+			children = (
+				AA5CDD4A163E68B8002AAEF6 /* Xiang */,
+				AA5CDD43163E68B8002AAEF6 /* Frameworks */,
+				AA5CDD41163E68B8002AAEF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5CDD41163E68B8002AAEF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CDD40163E68B8002AAEF6 /* Xiang.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5CDD43163E68B8002AAEF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CDD44163E68B8002AAEF6 /* UIKit.framework */,
+				AA5CDD46163E68B8002AAEF6 /* Foundation.framework */,
+				AA5CDD48163E68B8002AAEF6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5CDD4A163E68B8002AAEF6 /* Xiang */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CDDCA163E7B1B002AAEF6 /* engine.h */,
+				AA5CDDC9163E7B1B002AAEF6 /* engine.cpp */,
+				AA5CDD53163E68B8002AAEF6 /* XiangAppDelegate.h */,
+				AA5CDD54163E68B8002AAEF6 /* XiangAppDelegate.m */,
+				AA5CDD5C163E68B8002AAEF6 /* XiangViewController.h */,
+				AA5CDD5D163E68B8002AAEF6 /* XiangViewController.m */,
+				AA5CDD5F163E68B8002AAEF6 /* XiangViewController.xib */,
+				AA5CDD6F163E7716002AAEF6 /* ElephantEye */,
+				AA5CDD4B163E68B8002AAEF6 /* Supporting Files */,
+			);
+			path = Xiang;
+			sourceTree = "<group>";
+		};
+		AA5CDD4B163E68B8002AAEF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CDD4C163E68B8002AAEF6 /* Xiang-Info.plist */,
+				AA5CDD4D163E68B8002AAEF6 /* InfoPlist.strings */,
+				AA5CDD50163E68B8002AAEF6 /* main.m */,
+				AA5CDD52163E68B8002AAEF6 /* Xiang-Prefix.pch */,
+				AA5CDD56163E68B8002AAEF6 /* Default.png */,
+				AA5CDD58163E68B8002AAEF6 /* Default@2x.png */,
+				AA5CDD5A163E68B8002AAEF6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5CDD6F163E7716002AAEF6 /* ElephantEye */ = {
+			isa = PBXGroup;
+			children = (
+				AAFBDA27163F7765000B05DE /* book */,
+				AA5CDDB3163E79CD002AAEF6 /* base */,
+				AA5CDDA7163E78AD002AAEF6 /* ucci.h */,
+				AA5CDD9F163E78AD002AAEF6 /* ucci.cpp */,
+				AA5CDDA5163E78AD002AAEF6 /* pregen.h */,
+				AA5CDD9D163E78AD002AAEF6 /* pregen.cpp */,
+				AA5CDDA3163E78AD002AAEF6 /* position.h */,
+				AA5CDD9B163E78AD002AAEF6 /* position.cpp */,
+				AA5CDD98163E78AD002AAEF6 /* genmoves.cpp */,
+				AA5CDDA1163E78AD002AAEF6 /* hash.h */,
+				AA5CDD99163E78AD002AAEF6 /* hash.cpp */,
+				AA5CDDA0163E78AD002AAEF6 /* book.h */,
+				AA5CDD95163E78AD002AAEF6 /* book.cpp */,
+				AA5CDDA2163E78AD002AAEF6 /* movesort.h */,
+				AA5CDD9A163E78AD002AAEF6 /* movesort.cpp */,
+				AA5CDDA6163E78AD002AAEF6 /* search.h */,
+				AA5CDD9E163E78AD002AAEF6 /* search.cpp */,
+				AA5CDDA4163E78AD002AAEF6 /* preeval.h */,
+				AA5CDD9C163E78AD002AAEF6 /* preeval.cpp */,
+				AA5CDD97163E78AD002AAEF6 /* evaluate.cpp */,
+			);
+			name = ElephantEye;
+			sourceTree = "<group>";
+		};
+		AA5CDDB3163E79CD002AAEF6 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CDDB7163E79CD002AAEF6 /* base.h */,
+				AA5CDDB8163E79CD002AAEF6 /* base2.h */,
+				AA5CDDBA163E79CD002AAEF6 /* parse.h */,
+				AA5CDDBD163E79CD002AAEF6 /* pipe.h */,
+				AA5CDDBC163E79CD002AAEF6 /* pipe.cpp */,
+				AA5CDDBE163E79CD002AAEF6 /* rc4prng.h */,
+				AA5CDDC1163E79CD002AAEF6 /* x86asm.h */,
+			);
+			name = base;
+			path = ../../XiaQi/Libraries/ELEEYE/base;
+			sourceTree = "<group>";
+		};
+		AAFBDA27163F7765000B05DE /* book */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB0950163E7EA500AA4D6D /* OPENBOOK.DAT */,
+			);
+			name = book;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5CDD3F163E68B8002AAEF6 /* Xiang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5CDD67163E68B8002AAEF6 /* Build configuration list for PBXNativeTarget "Xiang" */;
+			buildPhases = (
+				AA5CDD3C163E68B8002AAEF6 /* Sources */,
+				AA5CDD3D163E68B8002AAEF6 /* Frameworks */,
+				AA5CDD3E163E68B8002AAEF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xiang;
+			productName = Xiang;
+			productReference = AA5CDD40163E68B8002AAEF6 /* Xiang.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5CDD37163E68B8002AAEF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Xiang;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Horace Ho";
+			};
+			buildConfigurationList = AA5CDD3A163E68B8002AAEF6 /* Build configuration list for PBXProject "Xiang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA5CDD35163E68B8002AAEF6;
+			productRefGroup = AA5CDD41163E68B8002AAEF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5CDD3F163E68B8002AAEF6 /* Xiang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5CDD3E163E68B8002AAEF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5CDD4F163E68B8002AAEF6 /* InfoPlist.strings in Resources */,
+				AA5CDD57163E68B8002AAEF6 /* Default.png in Resources */,
+				AA5CDD59163E68B8002AAEF6 /* Default@2x.png in Resources */,
+				AA5CDD5B163E68B8002AAEF6 /* Default-568h@2x.png in Resources */,
+				AA5CDD61163E68B8002AAEF6 /* XiangViewController.xib in Resources */,
+				AAEB0951163E7EA500AA4D6D /* OPENBOOK.DAT in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5CDD3C163E68B8002AAEF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5CDD51163E68B8002AAEF6 /* main.m in Sources */,
+				AA5CDD55163E68B8002AAEF6 /* XiangAppDelegate.m in Sources */,
+				AA5CDD5E163E68B8002AAEF6 /* XiangViewController.m in Sources */,
+				AA5CDDA8163E78AD002AAEF6 /* book.cpp in Sources */,
+				AA5CDDAA163E78AD002AAEF6 /* evaluate.cpp in Sources */,
+				AA5CDDAB163E78AD002AAEF6 /* genmoves.cpp in Sources */,
+				AA5CDDAC163E78AD002AAEF6 /* hash.cpp in Sources */,
+				AA5CDDAD163E78AD002AAEF6 /* movesort.cpp in Sources */,
+				AA5CDDAE163E78AD002AAEF6 /* position.cpp in Sources */,
+				AA5CDDAF163E78AD002AAEF6 /* preeval.cpp in Sources */,
+				AA5CDDB0163E78AD002AAEF6 /* pregen.cpp in Sources */,
+				AA5CDDB1163E78AD002AAEF6 /* search.cpp in Sources */,
+				AA5CDDB2163E78AD002AAEF6 /* ucci.cpp in Sources */,
+				AA5CDDC7163E79CD002AAEF6 /* pipe.cpp in Sources */,
+				AA5CDDCB163E7B1B002AAEF6 /* engine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA5CDD4D163E68B8002AAEF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5CDD4E163E68B8002AAEF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA5CDD5F163E68B8002AAEF6 /* XiangViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5CDD60163E68B8002AAEF6 /* en */,
+			);
+			name = XiangViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5CDD65163E68B8002AAEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA5CDD66163E68B8002AAEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5CDD68163E68B8002AAEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Xiang/Xiang-Prefix.pch";
+				INFOPLIST_FILE = "Xiang/Xiang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA5CDD69163E68B8002AAEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Xiang/Xiang-Prefix.pch";
+				INFOPLIST_FILE = "Xiang/Xiang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5CDD3A163E68B8002AAEF6 /* Build configuration list for PBXProject "Xiang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5CDD65163E68B8002AAEF6 /* Debug */,
+				AA5CDD66163E68B8002AAEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5CDD67163E68B8002AAEF6 /* Build configuration list for PBXNativeTarget "Xiang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5CDD68163E68B8002AAEF6 /* Debug */,
+				AA5CDD69163E68B8002AAEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5CDD37163E68B8002AAEF6 /* Project object */;
+}
